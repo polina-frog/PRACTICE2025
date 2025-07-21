@@ -1,0 +1,29 @@
+
+.history {
+  margin-top: 166px;
+}
+  
+.history-title {
+  font-size: 54px;
+  font-weight: 400;
+  width: 444px;
+  text-align: center;
+  margin-top: 21px;
+}
+.history-title span {
+  color: #ff8853;
+}
+.history-desc {
+  color: #404040;
+  font-size: 18px;
+  width: 444px;
+  text-align: center;
+}
+.image1 {
+  height: 400px;
+  width: 600px;
+}
+.history-holder {
+  display: flex;
+  justify-content: space-evenly ;
+}

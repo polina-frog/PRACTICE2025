@@ -1,0 +1,173 @@
+@import url('./header.css');
+@import url('./cards.css');
+@import url('./history.css');
+@import url('./author.css');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+}
+li {
+  list-style: none;
+}
+
+
+@media (min-width: 1045px) {
+  .history-holder {
+    gap: 60px;
+    justify-content: center;
+  }
+}
+@media (max-width: 1000px) {
+  .card-desc {
+    display: none;
+  }
+  .card-title {
+    margin-top: 20px;
+  }
+}
+@media (max-width: 740px) {
+  .header {
+    height: 70vh;
+  }
+  .header-title {
+    font-size: 55px;
+    left: calc(50% - 547px / 2);
+  }
+  .header-suptitle::before {
+    left: 100px;
+    top: 143px;
+  }
+  .header-suptitle::after {
+    left: 385px;
+    top: 143px;
+  }
+}
+@media (max-width: 649px) {
+  .nav-item {
+    font-size: 18px;
+  }
+}
+@media (max-width: 600px) {
+  .image1 {
+    width: 500px;
+    object-fit: cover;
+  }
+  .header {
+    height: 65vh;
+  }
+  .card-image {
+    width: 100px;
+    height: 70px;
+  }
+  .card-title {
+    font-size: 20px;
+  }
+  .header-title {
+    font-size: 47px;
+    left: calc(50% - 467px / 2);
+  }
+  .header-suptitle::after {
+    top: 123px;
+    left: 350px
+  }
+  .header-suptitle::before {
+    top: 123px;
+    left: 60px;
+  }
+  .logo-img {
+    width: 70px;
+    height: 74px;
+  }
+  .nav-item {
+    margin-right: 15px;
+    font-size: 15px;
+  }
+}
+@media (max-width: 505px) {
+  .image1 {
+    width: 400px;
+    height: 304px;
+    object-fit: cover;
+  }
+  .logo-img {
+    width: 60px;
+    height: 64px;
+  }
+  .nav-item {
+    margin-right: 13px;
+    font-size: 13px;
+  }
+  .header-title {
+    font-size: 40px;
+    left: calc(50% - 398px / 2);
+  }
+  .header-suptitle::after {
+    top: 110px;
+    left: 320px
+  }
+  .header-suptitle::before {
+    top: 110px;
+    left: 20px;
+  }
+  [class*="__container"] {
+    margin: 0px 90px;
+  }
+}
+@media (max-width: 440px) {
+  [class*="__container"] {
+    margin: 0px 60px;
+  }
+  .card {
+    margin-right: 10px;
+  }
+  .card:nth-child(3) {
+    margin-right: 0;
+  }
+  .nav-item {
+    margin-right: 10px;
+    font-size: 13px;
+  }
+  .header-title {
+    font-size: 35px;
+    left: calc(50% - 348px / 2);
+  }
+  .header-suptitle::after {
+    top: 95px;
+    left: 290px
+  }
+  .header-suptitle::before {
+    top: 95px;
+    left: 0px;
+  }
+  .card-image {
+    width: 80px;
+    height: 50px;
+  }
+  .card-title {
+    font-size: 15px;
+  }
+  .header-btm {
+    margin: -15px 0;
+  }
+  .image1 {
+    width: 350px;
+    height: 254px;
+  }
+}
+@media (max-width: 1165px) {
+  .history-holder {
+    display: flex;
+    justify-content: center;
+  } 
+  .history-title {
+    display: none;
+  }
+  .history-desc {
+    display: none;
+  }
+}
+

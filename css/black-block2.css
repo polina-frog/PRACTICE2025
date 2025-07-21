@@ -1,0 +1,39 @@
+.black-block2 {
+  background-image: url('../assets/images/FON3.jpg');
+  padding: 70px 0;
+}
+.left-title {
+  color: #ff8853;
+  font-size: 60px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+.left-text {
+  font-weight: 500;
+  font-size: 23px;
+  color: #fff;
+}
+.right-btn {
+  background-color: #ff8853;
+  color: #fff;
+  text-decoration: none;
+  padding: 14px 18px;
+  font-weight: 700;
+  transition: background-color 0.3s linear;
+}
+
+.right-btn:hover {
+  background-color: #ffc06e;
+}
+.block-holder {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 80px;
+}
+footer {
+  background-color: black;
+  padding: 50px 0;
+  color: #fff;
+  text-align: center;
+}

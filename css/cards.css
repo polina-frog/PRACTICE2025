@@ -1,0 +1,37 @@
+.card-holder {
+    display: flex;
+    justify-content: center;
+}
+.card {
+  box-shadow: 10px 10px 40px 20px #0000001a;
+  width: 349px;
+  margin-right: 31px;
+  background-color: #fff;
+  margin-top: -3vh;
+  padding: 0px 10px;
+}
+.card:nth-child(3) {
+  margin-right: 0;
+}
+.card-image {
+  display: flex;
+  justify-content: center;
+  padding-top: 31px;
+}
+.card-title {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 26px;
+  font-weight: 400;
+}
+
+.card-desc {
+  text-align: center;
+  justify-content: center;
+  font-size: 26px;
+  font-weight: 400;
+  color: #656363;
+  margin: 10px;
+}

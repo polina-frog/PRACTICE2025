@@ -1,0 +1,141 @@
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: url('../assets/images/bg.jpg') no-repeat center center fixed;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+.container {
+    max-width: 960px;
+    margin: 30px auto;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.92);
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+h1, h2, h3 {
+    text-align: center;
+    color: #2c3e50;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    background: #ffffff;
+    margin: 10px 0;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+li a {
+    text-decoration: none;
+    color: #0077cc;
+    font-size: 1.2em;
+}
+
+form {
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    margin-top: 20px;
+}
+
+input, textarea, button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+
+button {
+    background-color: #0077cc;
+    color: white;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background-color: #005fa3;
+}
+
+img {
+    max-width: 100%;
+    border-radius: 10px;
+    display: block;
+    margin: 0 auto 20px auto;
+}
+
+/* Адаптивность */
+@media (max-width: 600px) {
+    body {
+        font-size: 16px;
+    }
+
+    li, form {
+        padding: 10px;
+    }
+}
+
+
+/* Подсветка ссылок при наведении */
+ul li a {
+    transition: color 0.3s, background-color 0.3s;
+    display: inline-block;
+    padding: 10px 15px;
+    border-radius: 6px;
+}
+
+ul li a:hover {
+    background-color: #0077cc;
+    color: #fff;
+}
+
+
+/* Активная ссылка (например, выделенная текущая страница) */
+ul li a.active,
+ul li a:focus {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+/* Иконка в начале каждой ссылки */
+ul li a::before {
+    content: "🍜 ";
+    display: inline-block;
+    margin-right: 6px;
+}
+
+
+/* Стили для верхней плашки входа */
+.auth-bar {
+    background-color: #0077cc;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 8px;
+    text-align: right;
+    margin-bottom: 15px;
+}
+
+.auth-bar a {
+    color: #fff;
+    margin-left: 10px;
+    text-decoration: underline;
+}
+
+/* Стили для рейтинга */
+.rating {
+    float: right;
+    color: #f1c40f;
+    font-size: 1.2em;
+}
